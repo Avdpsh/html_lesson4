@@ -5,18 +5,19 @@
 }
 body {
   margin: 10px auto;
-  width: 325px;
+  width: 288px;
 }
 h1 {
   font: 16px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   }
 h2 {
-  font: 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14.4px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  margin: 15px 0px;
   }
 p {
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,7 +38,7 @@ p {
 form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
-  font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   font-weight: bold;
 }
@@ -60,7 +61,7 @@ legend {
   
 }
 .account-info {
-  padding: 10px 20px 13px 20px;
+  padding: 10px 16px 3px 16px;
   margin: 7px 0 0 0;
 }
 .account-info label {
