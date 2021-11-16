@@ -23,14 +23,14 @@
           <legend>Для регистрации введите свои данные:</legend>
           <label>Имя</label>
           <input type="text" name="first_name">
-          <label>Фамилия</label>
+          <label id="f">Фамилия</label>
           <input type="text" name="last_name">
-          <label>Email</label>
+          <label id="email">Email</label>
           <input type="email" name="email_address" required="required" class="email notnull">
-          <label>Телефон</label>
+          <label id="tel">Телефон</label>
           <input type="tel" name="phone" required="required" class="notnull"
             placeholder="+375 (код оператора) 111-11-11">
-          <label>Страна</label>
+          <label id="strana">Страна</label>
             <select name="country">
               <option>Беларусь</option>
               <option>Россия</option>
@@ -41,10 +41,10 @@
               <option>Эстония</option>
               <option>США</option>
             </select>
-          <label>Пароль</label>
+          <label id="pas">Пароль</label>
           <input type="password" name="password">
-          <label>Подтвердите пароль</label>
-          <input type="password" name="password_confirm">
+          <label id="pass">Подтвердите пароль</label>
+          <input id="pas2" type="password" name="password_confirm">
           
         </fieldset>
         <fieldset class="account-action">
