@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма регистрации на VK</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Регистрация</h1>
+    <img src="images/Vkontakte.gif" alt="logo">
+    <p><strong>ВКонтакте.ру</strong> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг лиц, которым она будет доступна.</p>
+  </header>
+
+  <main>
+    <form action="/signup" method="POST">
+
+      <fieldset>
+        <legend>Имя</legend>
+        <p>Имя:<input type="text" name="first_name">Допускаются только настоящие имя и фамилия</p>
+        <p>Фамилия:<input type="text" name="last_name">Остальные регистрации будут удаляться</p>
+        <p>E-Mail:<input type="email" name="email_address" required="required"></p>
+        <p>Пароль:<input type="password" name="password"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Образование</legend>
+        <label>Страна</label>
+        <select name="country">
+          <option>Беларусь</option>
+          <option>Россия</option>
+          <option>Украина</option>
+          <option>Польша</option>
+          <option>Литва</option>
+          <option>Латвия</option>
+          <option>Эстония</option>
+          <option>США</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Город</legend>
+        <label>Город</label>
+        <select name="city">
+          <option>Беларусь</option>
+          <option>Россия</option>
+          <option>Украина</option>
+          <option>Польша</option>
+          <option>Литва</option>
+          <option>Латвия</option>
+          <option>Эстония</option>
+          <option>США</option>
+        </select>
+        <p>Город где вы учились в школе или вузе:</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Школа</legend>
+        <label>Школа</label>
+        <select name="school">
+          <option>Беларусь</option>
+          <option>Россия</option>
+          <option>Украина</option>
+          <option>Польша</option>
+          <option>Литва</option>
+          <option>Латвия</option>
+          <option>Эстония</option>
+          <option>США</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Университет</legend>
+        <label>Вуз</label>
+        <select name="university">
+          <option>Беларусь</option>
+          <option>Россия</option>
+          <option>Украина</option>
+          <option>Польша</option>
+          <option>Литва</option>
+          <option>Латвия</option>
+          <option>Эстония</option>
+          <option>США</option>
+        </select>
+      </fieldset>
+
+        <input type="submit" name="submit" value="Зарегистрироваться">
+        <p>Фактом регистрации Вы соглашаетесь с <a href="#">Пользовательским соглашением</a></p>
+    </form>
+  </main>
+
+</body>
+
+</html>
