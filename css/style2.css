@@ -1,31 +1,47 @@
-body {
-  
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
 }
+
+
+header, main {
+  display: block;
+}
+h1 {
+  color: #577498;
+  font-size: 14px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0px;
+  font-weight: 500;
+  margin: 0;
+  padding: 6px 0px 14px 7px;
+  border-bottom: 1px solid gray;
+
+}
+.logo {
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding: 18.4px 10px 0px 11.4px;
+}
+
+header p {
+  width: 600px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  padding: 4px 0px 0px 7px;
+}
+
+
+
+
 label {
   float: left;
 }
 fieldset {
    border:0 none;
 }
-img {
-  float: left;
-  width: 25px;
-  height: 25px;
-  padding: 19px 8px 0px 4px;
-}
-h1 {
-  color: #577498;
-  font: 14px sans-serif;
-  font-family: Verdana;
-  letter-spacing: 0px;
-  font-weight: 500;
-  margin: 0;
-  padding: 0px 0px 11px 0px;
-  border-bottom: 1px solid gray;
-}
-header p {
-  width: 600px;
-  font-family: Gill Sans sans-serif;
-  font-size: 10px;
-  padding: 4px 0px 0px 7px;
-}
+
